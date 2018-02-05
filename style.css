@@ -1,0 +1,25 @@
+
+
+#board {
+	background: grey;
+	position: relative; 
+	width: 500px; 
+	height: 500px;
+}
+
+#game-screen {
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr;
+	justify-items: center;
+	justify-content: center;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}

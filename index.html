@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		
+
+	</head>
+	<body>
+		<div id="game-screen">
+			<div id="board"></div>
+			<div id="sidebar">
+				<div id="buttons">
+					<button id="add-player">Add Player!</button>
+					<button id="start-game">Start</button>
+				</div>
+				<div id="messages"></div>
+				<div id="players">
+					<table id="player-table">
+						<tr>
+							<th>Player</th>
+							<th>Left</th>
+							<th>Down</th>
+							<th>Right</th>
+							<th>Up</th>
+							<th>Status</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+
+
+		<script type="text/javascript" src="classes/block.js"></script>
+		<script type="text/javascript" src="classes/powerup.js"></script>
+		<script type="text/javascript" src="classes/game.js"></script>
+		<script type="text/javascript" src="helpers/generators.js"></script>
+		<script type="text/javascript" src="bin/helpers.js"></script>
+		<script type="text/javascript" src="bin/app.js"></script>
+	</body>
+</html>
